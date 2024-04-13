@@ -11,3 +11,19 @@
 
 #!.yarn/cache
 .pnp.*
+
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/build
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
